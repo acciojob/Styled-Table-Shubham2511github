@@ -1,1 +1,19 @@
 /* your code */
+#table{
+	border: 1px solid gray;
+	width: 900px;
+	border-radius: 10px;
+}
+#color{
+	background-color: #215A8E;
+	color: white;
+	
+	
+}
+thead td{
+	padding: 10px;
+	border-collapse: collapse;
+}
+tbody:nth-child(even) tr{
+	background-color: gray;
+}
